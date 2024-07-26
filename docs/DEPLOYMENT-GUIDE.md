@@ -82,7 +82,7 @@ In the `deploy.parameters.json` file, provide values for the following required 
 `CONTAINER_REGISTRY_SERVER`            | <my_container_registry>.azurecr.io        | No  | Name of an existing Azure Container Registry where the `graphrag` backend docker image is hosted. Will get created automatically if not provided.
 `GRAPHRAG_IMAGE`                       | graphrag:backend                          | No  | The name and tag of the graphrag docker image in the container registry. Will default to `graphrag:backend`.
 `GRAPHRAG_API_BASE`                    | https://<my_openai_name>.openai.azure.com | Yes | Azure OpenAI service endpoint.
-`GRAPHRAG_API_VERSION`                 | 2023-03-15-preview                        | Yes | Azure OpenAI API version.
+`GRAPHRAG_API_VERSION`                 | 2023-03-15-preview                        | Yes | Azure OpenAI API version. Please find the current api versions here - https://learn.microsoft.com/en-us/azure/ai-services/openai/reference?WT.mc_id=AZ-MVP-5004796
 `GRAPHRAG_LLM_MODEL`                   | gpt-4                                     | Yes | Name of the gpt-4 turbo model.
 `GRAPHRAG_LLM_DEPLOYMENT_NAME`         |                                           | Yes | Deployment name of the gpt-4 turbo model.
 `GRAPHRAG_EMBEDDING_MODEL`             | text-embedding-ada-002                    | Yes | Name of the Azure OpenAI embedding model.
